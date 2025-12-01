@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team CyberWarriors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ===== SECURITY LOADING SCREEN ===== -->
+<div id="loading-screen">
+  <div class="loader">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+  <p id="loading-text">[ INITIALIZING... ]</p>
+</div>
+  <!-- Matrix Canvas -->
+  <canvas id="matrixRain"></canvas>
+
+  <header>
+    <div class="head-left">
+      <span id="mainTypewriter">YUVRAJ SINGH (HEAD)</span>
+    </div>
+    <div class="head-right">
+      <span id="typewriter"></span><span class="cursor"></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="profile glass">
+      <img src="profile.jpg" alt="Profile" class="profile-img" />
+      <h2 class="team-title">TEAM <span class="cyber-text">CYBERWARRIORS</span></h2>
+      <div class="team-block">
+        <p class="highlight head-name">YUVRAJ SINGH – (HEAD)</p>
+        <p class="highlight cohead-name">Abhishek Singh – (Co-Head)</p>
+        <p class="member-name">Devbrat Singh – Member</p>
+        <p class="member-name">Alok Kumar – Member</p>
+      </div>
+      <p class="faculty">
+        Guided by <em>Mr. Rajeev Shishodia</em><br>
+        (Respected Faculty, Department of BCA Cybersecurity)
+      </p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="about glass split-box">
+      <h2>WHO WE ARE</h2>
+      <div class="about-container">
+        <div class="about-box left-box">
+          <p>
+            We are <strong>CyberWarriors</strong> — a passionate group of
+            <strong>BCA Cybersecurity students</strong> driven by curiosity, logic, and creativity.
+            Our journey started with a vision: to blend innovation with protection, and
+            creativity with code.
+          </p>
+        </div>
+        <div class="about-box right-box">
+          <p>
+            This website reflects not just our technical skills, but our dedication to
+            learning, experimenting, and growing as cybersecurity learners.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="skills glass">
+      <h2>OUR TECHNICAL ARSENAL</h2>
+      <ul>
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Programming:</strong> C, Python</li>
+        <li><strong>Security:</strong> Ethical Hacking, Networking</li>
+        <li><strong>Soft Skills:</strong> Teamwork, Problem-Solving</li>
+      </ul>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="projects glass">
+      <h2>OUR CREATIONS</h2>
+      <ul>
+        <li>Portfolio Website — you're viewing it!</li>
+        <li>Secure Login Page — validation & encryption ready.</li>
+        <li>Password Strength Analyzer — JS-based security tool.</li>
+      </ul>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="contact glass">
+      <h2>CONTACT US</h2>
+      <div class="icons">
+        <a href="tel:+919336720654"><img src="call.jpg" alt="Call" /></a>
+        <a href="mailto:krishna9336singh@gmail.com"><img src="mail.jpg" alt="Mail" /></a>
+        <a href="https://www.instagram.com/krishnaa_thakurr4511" target="_blank"><img src="instagram.jpg" alt="Instagram" /></a>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="review glass">
+      <h2>DROP YOUR FEEDBACK</h2>
+      <form id="reviewForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Feedback" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="successMsg" class="success"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p id="footer-type1"></p>
+      <p id="footer-type2"></p>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Go to top">↑</button>
+
+  <div id="popup" class="popup">Thank you for your feedback!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
